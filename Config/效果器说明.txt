@@ -1,0 +1,38 @@
+攻击减血
+Type : AtkHp = 1
+Tag	: 	Fix=1 固定值	
+		Phy=2 物攻
+		Mag=3 魔攻
+		OwnerMaxHp=4 自身最大hp
+		TargetMaxHp=5 目标最大hp
+参数格式: Tag;数值;比率
+
+
+
+
+攻击减蓝
+Type : AtkMp = 2
+Tag	: 	Fix=1 固定值	
+		Phy=2 物攻
+		Mag=3 魔攻
+		OwnerMaxMp=4 自身最大mp
+		TargetMaxMp=5 目标最大mp
+参数格式: Tag;数值;比率
+
+
+
+
+治疗回血
+Type: TreatHp = 3
+Tag: 	Fix=1 固定值	
+		TargetMaxHp=5 目标最大hp
+参数格式: Tag;数值;比率		
+
+
+
+治疗回蓝
+Type: TreatMp = 4
+Tag: 	Fix=1 固定值	
+		TargetMaxMp=5 目标最大mp
+参数格式: Tag;数值;比率		
+
